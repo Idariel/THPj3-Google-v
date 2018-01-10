@@ -1,0 +1,93 @@
+body{
+font-family: arial, sans-serif;
+display: flex;
+flex-direction: column;
+padding: 0;
+margin: 0;
+}
+
+#main{
+  width: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.logoMain{
+  display:
+  width: 272px;
+  height: 201px;
+  margin-top: 109px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 0px;
+}
+
+.fullWidth{
+  width: 100%;
+}
+
+.navbar{
+  display: inline-block;
+  list-style-type: none;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0;87);
+  font-size: 0.8em;
+  vertical-align: middle;
+  padding: 0 12px;
+
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.fondBleu{
+   
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+}
+
+#footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+
+.footer{
+  padding: O 20px;
+}
+
+.alignLeft{
+  justify-content: flex-start;
+}
+
+.alignRight{
+  justify-content: flex-end;
+}
+
+.divButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boutonGris{
+  background-color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
